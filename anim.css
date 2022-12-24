@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+
+}
+body{
+    background: url("1642650012_24-phonoteka-org-p-temnii-anime-fon-24.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Фон страницы фиксируется */
+  
+}
+.but{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    background-color: red;
+    height: 50px;
+    top: 550px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.image{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%; 
+}
+.categ{
+    position: relative;
+    top: 800px;
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    overflow: hidden;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.categ:active{
+    overflow: visible;
+}
+.item{
+    width: 200px;
+    height: 50px;
+    background-color: orangered;
+}
+ul {
+    list-style: none;
+}
+.item_list{
+
+  width: 200px;
+    background-color: aqua;
+    transition: all 3s;
+    text-align: center;
+}
+.item_btn{
+width: 200px;
+height: 35px;
+position: relative;
+left: 50%;
+top: 100px;
+overflow: hidden;
+transform: translateX(-50%);
+}
+.teext{
+    color: rgb(251, 14, 14);
+    text-align: center;
+}
+.item_btn:hover{
+    overflow: visible;
+}
+.fff1{
+    position: relative;
+    top: 100px;
+   
+   text-align: center;
+   cursor: pointer;
+}
+.tee {
+    color: rgb(248, 14, 14);
+    word-spacing:  5px;
+    /*padding-right: 45px;*/
+}
+.categ{
+    color: rgb(248, 14, 14);
+  /* text-align: center;  */
+    position: relative;
+    top: 100px;
+   
+}
+.categoory{
+    position: relative;
+    display: block;
+    text-align: center;
+    color: rgb(248, 14, 14);
+    top: 100px;
+}
+.ok{
+    width: 60px;
+  
+    color: #fff;
+    background-color: orangered;
+}
+@media (max-width: 500px){
+.image{
+    top: 100px;
+    width: 200px;
+    height: 250px;
+}
+.but{
+    top: 450px
+}
+}
